@@ -49,8 +49,6 @@ footer {
 }
 
 .story-block {
-    background: url(../img/20200328_Quarantine_005.jpg);
-    background-size: cover;
     margin: auto;
     width: 70%;
     height: 300px;
@@ -58,6 +56,31 @@ footer {
     background-color: antiquewhite;
     padding: 100px 0;
     text-align: center;
+}
+
+.sb1 {
+    background: url(../img/pymthecat.jpg);
+    background-size: cover;
+}
+
+.sb2 {
+    background: url(../img/pymthecat.jpg);
+    background-size: cover;
+}
+
+.sb3 {
+    background: url(../img/pymthecat.jpg);
+    background-size: cover;
+}
+
+.sb4 {
+    background: url(../img/pymthecat.jpg);
+    background-size: cover;
+}
+
+.sb4 {
+    background: url(../img/pymthecat.jpg);
+    background-size: cover;
 }
 
 /* ------------  Media queries ------------  */
