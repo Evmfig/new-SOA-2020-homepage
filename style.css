@@ -1,0 +1,82 @@
+/* font-family: 'Open Sans', sans-serif;
+*/
+
+/* ------------ Text styling ------------  */
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h5,
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 15%);
+}
+
+/* ------------  Section styling ------------  */
+header {
+    padding: 40px;
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    padding: 40px;
+}
+
+/* ------------  Class/ID styling ------------  */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 40px;
+}
+
+.explainer {
+    padding: 100px 200px;
+}
+
+#choose {
+    text-align: center;
+    color: hsl(0, 0%, 55%);
+}
+
+.main-content {
+    padding: 10px;
+}
+
+.story-block {
+    background: url(../img/20200328_Quarantine_005.jpg);
+    background-size: cover;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    border: 3px solid lightblue;
+    background-color: antiquewhite;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* ------------  Media queries ------------  */
+@media screen and (max-width: 1100px) {
+    header {
+        padding: 20px;
+    }
+
+    .explainer {
+        padding: 50px 150px;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    header {
+        padding: none;
+    }
+
+    .explainer {
+        padding: none;
+    }
+}
