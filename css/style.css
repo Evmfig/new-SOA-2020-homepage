@@ -7,7 +7,11 @@ h1 {
     color: white;
 }
 
-h5,
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     color: hsl(0, 0%, 15%);
@@ -37,6 +41,8 @@ a:active {
 header {
     padding: 40px;
     background-color: #F2F2F2;
+    background-image: url(../img/soul-bg.jpg);
+    background-size: cover;
 }
 
 section {
@@ -52,10 +58,8 @@ footer {
 /* ------------  Class/ID styling ------------  */
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    padding: 40px;
+    margin: auto;
+    width: 20%;
 }
 
 .explainer {
