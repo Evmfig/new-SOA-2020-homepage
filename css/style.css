@@ -13,17 +13,40 @@ p {
     color: hsl(0, 0%, 15%);
 }
 
+a:link {
+    text-decoration: none;
+    color: #A65233;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #BF784E;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 /* ------------  Section styling ------------  */
 header {
     padding: 40px;
+    background-color: #F2F2F2;
 }
 
 section {
     padding: 40px;
+    background-color: #F2F2F2;
 }
 
 footer {
     padding: 40px;
+    background-color: #C7CCD9;
 }
 
 /* ------------  Class/ID styling ------------  */
@@ -41,7 +64,7 @@ footer {
 
 #choose {
     text-align: center;
-    color: hsl(0, 0%, 55%);
+    color: #090526;
 }
 
 .main-content {
@@ -52,7 +75,6 @@ footer {
     margin: auto;
     width: 70%;
     height: 300px;
-    border: 3px solid lightblue;
     background-color: antiquewhite;
     padding: 100px 0;
     text-align: center;
