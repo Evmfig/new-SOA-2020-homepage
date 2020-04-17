@@ -2,19 +2,15 @@
 */
 
 /* ------------ Text styling ------------  */
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
-}
-
+h1,
 h5 {
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: #F2F2F2;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
-    color: hsl(0, 0%, 15%);
+    color: #F2F2F2;
 }
 
 a:link {
@@ -39,15 +35,14 @@ a:active {
 
 /* ------------  Section styling ------------  */
 header {
-    padding: 40px;
     background-color: #F2F2F2;
-    background-image: url(../img/soul-bg.jpg);
+    background-image: url(../img/soul-bg-fade.png);
     background-size: cover;
 }
 
 section {
     padding: 40px;
-    background-color: #F2F2F2;
+    background-color: black;
 }
 
 footer {
@@ -59,20 +54,17 @@ footer {
 .logo {
     display: block;
     margin: auto;
-    width: 20%;
 }
 
-.explainer {
-    padding: 100px 200px;
-}
-
-#choose {
+.choose {
     text-align: center;
-    color: #090526;
+    color: #F2F2F2;
 }
 
-.main-content {
-    padding: 10px;
+#arrow {
+    display: block;
+    margin: auto;
+    width: 3%;
 }
 
 .story-block {
@@ -85,12 +77,12 @@ footer {
 }
 
 .sb1 {
-    background: url(../img/veterans/veterans_header.jpg);
+    background: url(../img/battle-back-home/veterans_header.jpg);
     background-size: cover;
 }
 
 .sb2 {
-    background: url(../img/religion/religion-header-image.jpg);
+    background: url(../img/spirituality-in-athens/religion-header-image.jpg);
     background-size: cover;
 }
 
@@ -100,23 +92,74 @@ footer {
 }
 
 .sb4 {
-    background: url(../img/medical-access/MedicalAccess_HeaderImage.png);
+    background: url(../img/a-long-road/MedicalAccess_HeaderImage.png);
     background-size: cover;
 }
 
 .sb5 {
-    background: url(../img/lore/lore-background.jpg);
+    background: url(../img/lore-in-appalachia/lore-background.jpg);
     background-size: cover;
 }
+
+/* ------------  Credits Page ------------  */
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+ul {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+    justify-content: flex-end;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
+    padding-left: 0;
+    color: white;
+}
+
+ul span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.padding-bottom {
+    padding-bottom: 40px;
+}
+
 
 /* ------------  Media queries ------------  */
 @media screen and (max-width: 1100px) {
     header {
         padding: 20px;
-    }
-
-    .explainer {
-        padding: 50px 150px;
     }
 }
 
@@ -125,7 +168,8 @@ footer {
         padding: none;
     }
 
-    .explainer {
-        padding: none;
+    h2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 }
