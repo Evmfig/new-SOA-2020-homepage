@@ -38,6 +38,10 @@ a:active {
 }
 
 /* ------------  Section styling ------------  */
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #F2F2F2;
     background-image: url(../img/soul-bg-fade.png);
@@ -196,6 +200,10 @@ ul span {
     header {
         padding: 20px;
     }
+
+    #arrow {
+        width: 5%;
+    }
 }
 
 @media screen and (max-width: 356px) {
@@ -206,5 +214,9 @@ ul span {
     h2 {
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    #arrow {
+        width: 15%;
     }
 }
