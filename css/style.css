@@ -80,7 +80,7 @@ footer {
 .story-block {
     margin: auto;
     width: 70%;
-    height: 300px;
+    height: 320px;
     background-color: antiquewhite;
     padding: 100px 0;
     text-align: center;
@@ -93,6 +93,7 @@ footer {
 
 .sb1 h1 {
     font-family: 'Merriweather', serif;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb1 p,
@@ -102,6 +103,7 @@ footer {
 .sb5 p {
     width: 50%;
     margin: auto;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb2 {
@@ -111,6 +113,7 @@ footer {
 
 .sb2 h1 {
     font-family: 'Barlow', sans-serif;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb3 {
@@ -120,6 +123,7 @@ footer {
 
 .sb3 h1 {
     font-family: 'Playfair Display', serif;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb4 {
@@ -129,6 +133,7 @@ footer {
 
 .sb4 h1 {
     font-family: 'Source Sans Pro', sans-serif;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb5 {
@@ -138,6 +143,7 @@ footer {
 
 .sb5 h1 {
     font-family: 'Crimson Text', serif;
+    filter: drop-shadow(5px 5px 10px black);
 }
 
 /* ------------  Credits Page ------------  */
@@ -196,13 +202,20 @@ ul span {
 
 
 /* ------------  Media queries ------------  */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 900px) {
     header {
         padding: 20px;
     }
 
     #arrow {
         width: 5%;
+    }
+
+    .story-block {
+        margin: auto;
+        width: 80%;
+        height: 350px;
+        padding: 80px 0;
     }
 }
 
@@ -218,5 +231,12 @@ ul span {
 
     #arrow {
         width: 15%;
+    }
+
+    .story-block {
+        margin: auto;
+        width: 90%;
+        height: 450px;
+        padding: 40px 0;
     }
 }
