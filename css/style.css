@@ -25,11 +25,17 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #BF784E;
+    color: #A65233;
 }
 
-a:hover {
-    text-decoration: none;
+footer a:link {
+    text-decoration: underline;
+}
+
+nav a:hover,
+footer a:hover,
+#past a:hover {
+    text-decoration: underline;
 }
 
 a:active {
@@ -54,10 +60,23 @@ section {
 }
 
 footer {
-    padding: 40px;
+    padding: 20px;
     background-color: #C7CCD9;
     text-align: center;
-    font-size: 15px;
+}
+
+footer h5 {
+    color: #A65233;
+    font-size: small;
+    margin: 5px;
+    font-weight: bold;
+}
+
+footer p,
+footer a {
+    color: #A65233;
+    font-size: smaller;
+    margin: 0;
 }
 
 /* ------------  Class/ID styling ------------  */
@@ -81,7 +100,6 @@ footer {
     margin: auto;
     width: 70%;
     height: 320px;
-    background-color: antiquewhite;
     padding: 100px 0;
     text-align: center;
 }
@@ -89,6 +107,7 @@ footer {
 .sb1 {
     background: url(../img/battle-back-home/veterans_header.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .sb1 h1 {
@@ -96,19 +115,10 @@ footer {
     filter: drop-shadow(5px 5px 10px black);
 }
 
-.sb1 p,
-.sb2 p,
-.sb3 p,
-.sb4 p,
-.sb5 p {
-    width: 50%;
-    margin: auto;
-    filter: drop-shadow(5px 5px 10px black);
-}
-
 .sb2 {
     background: url(../img/spirituality-in-athens/religion-header-image.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .sb2 h1 {
@@ -119,30 +129,53 @@ footer {
 .sb3 {
     background: url(../img/intentional-communities/homepage-header.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .sb3 h1 {
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
     filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb4 {
-    background: url(../img/a-long-road/MedicalAccess_HeaderImage.png);
+    background: url(../img/a-long-road/MedicalAccess_HeaderImage.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .sb4 h1 {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
     filter: drop-shadow(5px 5px 10px black);
 }
 
 .sb5 {
     background: url(../img/lore-in-appalachia/lore-background.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .sb5 h1 {
     font-family: 'Crimson Text', serif;
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.sb1:hover,
+.sb2:hover,
+.sb3:hover,
+.sb4:hover,
+.sb5:hover {
+    filter: opacity(80%);
+}
+
+.sb1 p,
+.sb2 p,
+.sb3 p,
+.sb4 p,
+.sb5 p {
+    width: 50%;
+    margin: auto;
     filter: drop-shadow(5px 5px 10px black);
 }
 
@@ -234,9 +267,7 @@ ul span {
     }
 
     .story-block {
-        margin: auto;
-        width: 90%;
-        height: 450px;
-        padding: 40px 0;
+        width: 100%;
+        height: auto;
     }
 }
